@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Professional Safety Index</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Safety Index</h1>
+        <canvas id="safetyIndexChart" width="400" height="200"></canvas>
+        <button id="submitBtn">Check Safety</button>
+        <button id="handledBtn" style="display: none;">Situation Handled</button>
+        <div class="alert-message" style="display: none;">
+            <p class="alert-text">Safety parameters have gone below the thresholds.</p>
+            <p class="alert-text">Is the situation handled?</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
